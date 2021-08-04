@@ -1,6 +1,16 @@
 main>.container {
     padding: 60px 15px 0;
 }
+
+main>.container-fluid {
+    padding-top: 60px;
+}
+
+body> main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .sticky-nav {
     position: fixed;
     left: 0;
@@ -21,4 +31,8 @@ main>.container {
     font-weight: 400;
     font-style: normal;
     color: rgba(255, 255, 255, 0.897);
+}
+
+.minHeight{
+    min-height: 80vh;
 }
